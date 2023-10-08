@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    -webkit-user-select: none;
+}
+
+body {
+    background: rgb(123,0,150);
+    background: linear-gradient(80deg, rgba(123,0,150,1) 0%, rgba(167,31,11,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}

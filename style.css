@@ -12,3 +12,19 @@ body {
     place-content: center;
     height: 100vh;
 }
+.form-container{
+    position: relative;
+}
+#password-field{
+    /* width: 350px; */
+    min-width: 250px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+}
+#pass-input-icon{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
